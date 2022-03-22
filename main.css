@@ -28,8 +28,8 @@ flex-direction: column;
     /* background-color: #eee; */
     color: #444;
     cursor: pointer;
-    padding: 30px 20px;
-    width: 60%;
+    padding: 10px 10px;
+    /* width: 60%; */
     border: none;
     outline: none;
     transition: 0.4s;
@@ -39,7 +39,7 @@ flex-direction: column;
 .faq-body{
     margin: auto;
     /* text-align: center; */
-   width: 50%; 
+   width: 90%; 
    padding: auto;
    
 }
