@@ -8,7 +8,9 @@ for (i = 0; i < faq.length; i++) {
         /* Toggle between adding and removing the "active" class,
         to highlight the button that controls the panel */
         for (x = 0; x < faq.length; x++) {
-				faq.classList.toggle("active");
+			    if(faq[x]!=this){
+					faq[x].classList.remove("active");
+				}
 		}
 		this.classList.toggle("active");
 
