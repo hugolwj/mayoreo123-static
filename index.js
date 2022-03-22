@@ -1,6 +1,6 @@
 var faq = document.getElementsByClassName("faq-page");
 var faqBody = document.getElementsByClassName("faq-body");
-var x；
+var x;
 var i;
 
 for (i = 0; i < faq.length; i++) {
