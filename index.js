@@ -1,5 +1,6 @@
 var faq = document.getElementsByClassName("faq-page");
 var faqBody = document.getElementsByClassName("faq-body");
+var x；
 var i;
 
 for (i = 0; i < faq.length; i++) {
@@ -13,8 +14,8 @@ for (i = 0; i < faq.length; i++) {
         if (body.style.display === "block") {
             body.style.display = "none";
         } else {
-			for (i = 0; i < faqBody.length; i++) {
-				faqBody[i].style.display = "none";
+			for (x = 0; x < faqBody.length; x++) {
+				faqBody[x].style.display = "none";
 			}
             body.style.display = "block";
         }
