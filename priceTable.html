@@ -1,87 +1,104 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<title>Woo Novedades Mayoreo mencancia surtida desde 1 pieza preguntas frecuentes</title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-				<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
-				<style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); </style>
-				
-		<script>
-				function getParamValue(paramName)
-				{
-					var url = window.location.search.substring(1); //get rid of "?" in querystring
-					var qArray = url.split('&'); //get key-value pairs
-					for (var i = 0; i < qArray.length; i++) 
-					{
-						var pArr = qArray[i].split('='); //split key and value
-						if (pArr[0] == paramName) 
-							return pArr[1]; //return value
-					}
-				}
-				</script>
-		</head>
-					
-					<body> 
-					 <main>
-					 <h1 class="faq-heading">Preguntas Frecuentes</h1>
-        <section class="faq-container">
-            <div class="faq-one">
-                <!-- faq question -->
-                <h1 class="faq-page">Como comprar?</h1>
-                <!-- faq answer -->
-                <div class="faq-body">
-                   <p><strong>✅Selecciona Productos.</strong></p>
-					<p>Presiona el producto que te interesa para ver su detalle.</p>
-					<p>
-						<strong>✅Elige cantidad.</strong>
-					</p>
-					<p>Modifica la cantidad de lote requerida y resiona el boton "AREGAR AL CARRITO". 
-					<p>
-						<strong>✅Verfiica y finaliza la compra</strong>
-					</p>
-					<p>Presiona el icono de Carrito en la parte superior derecha. Verifica que los productos, cantidades sean correctos. Presiona el boton "COMPRAR".Ingresa el código de descuento y llena el formulario de datos de contacto y direccion de entrega. </p>
-                </div>
-            </div>
-            <hr class="hr-line">
-            <div class="faq-two">
-                <!-- faq question -->
-                <h1 class="faq-page">Precios Y Promociones</h1>
-                <!-- faq answer -->
-                <div class="faq-body">
-                    <p>Todos nuestros precios son en <strong>pesos mexicanos (MXN) y no incluyen IVA.</strong></p>
-					<p><strong>PROMOCIÓN</strong></p>
-					<p>Recuerda a <strong>ingresa el codigo de cupon correspondiente al monto total de tu compra</strong>, te ofrecemos de 5% a 15% de descuento por el volumen de compra.</p>
-                </div>
-            </div>
-            <hr class="hr-line">
-            <div class="faq-three">
-                <!-- faq question -->
-				<h1 class="faq-page">Formas de Pago</h1>
-                <!-- faq answer -->
-                <div class="faq-body">
-                    <p>Puedes hacer tus pagos en OXXO, transferencia SPEI. También aceptamos Paypal.</p>
-                </div>
-            </div>
-			 <hr class="hr-line">
-			 <div class="faq-four">
-                <!-- faq question -->
-				<h1 class="faq-page">Envios</h1>
-                <!-- faq answer -->
-                <div class="faq-body">
-                    <p><strong>Envíos a todo México</strong></p>
-					 <p><strong>Costo de Envíos:</strong> $240 pesos cubre hasta 40 kg por estafeta.</p>
-					<p><strong>Tiempo de entrega:</strong> 4 a 7 dias.</p>
-					
-					
-                </div>
-            </div>
-
-        </section>
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Woo Novedades Mayoreo mencancia surtida desde 1 pieza preguntas frecuentes</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+      <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); </style>
+      <script>
+         function getParamValue(paramName)
+         {
+         	var url = window.location.search.substring(1); //get rid of "?" in querystring
+         	var qArray = url.split('&'); //get key-value pairs
+         	for (var i = 0; i < qArray.length; i++) 
+         	{
+         		var pArr = qArray[i].split('='); //split key and value
+         		if (pArr[0] == paramName) 
+         			return pArr[1]; //return value
+         	}
+         }
+      </script>
+   </head>
+   <body>
+      <main>
+         <p><span><strong>✨Descuento para mayoreo</strong></span></p>
+         <p><span>Recibe un descuento sobre el monto total de tu compra, en mercanc&iacute;a surtida, desde 1 pz.</span></p>
+         <table>
+            <tbody>
+               <tr class="td-header">
+                  <td>COMPRA TOTAL</td>
+                  <td><span>DESCUENTO</span></td>
+                  <td><span>PRECIO</span></td>
+               </tr>
+               <tr>
+                  <td><span id="wnpt_level1">Menor de $699</span></td>
+                  <td>&nbsp;</td>
+                  <td><span id="wnpt_price1">$12.00</span></td>
+               </tr>
+               <tr>
+                  <td><span id="wnpt_level2">$ 699 a $2,998</span></td>
+                  <td><span id="wnpt_des2">5% </span></td>
+                  <td><span id="wnpt_price2">$11.40</span></td>
+               </tr>
+               <tr>
+                  <td><span id="wnpt_level3">$ 2,999 a $6,998</span></td>
+                  <td><span id="wnpt_des3">>10% </span></td>
+                  <td><span id="wnpt_price3">$10.80</span></td>
+               </tr>
+               <tr>
+                  <td><span id="wnpt_level4">Mayor de $6,999</span></td>
+                  <td><span id="wnpt_des4">>15% </span></td>
+                  <td><span id="wnpt_price4">$10.20</span></td>
+               </tr>
+            </tbody>
+         </table>
+         <p>En el momento de pagar, ingresa el c&oacute;digo de cup&oacute;n, el descuento se aplicar&aacute; autom&aacute;ticamente sobre el monto total de tu compra. Cualquier duda h&aacute;blanos v&iacute;a WhatsApp.</p>
+      </main>
+      <script src="index.js"></script>
+      <script>
+		//var level2=Number(getParamValue("l2")); 
+		//var level3=Number(getParamValue("l3"));
+		//var level4=Number(getParamValue("l4"));
 		
-		 </main>
-		 <script src="index.js"></script>
-		 <script>document.getElementById("test1").innerHTML = getParamValue("price");</script>
-						</body>
-					</html>
+		//var des2=Number(getParamValue("d2"));
+		//var des3=Number(getParamValue("d3"));
+		//var des4=Number(getParamValue("d4"));
+		
+		//var price1=Number(getParamValue("op"));
+		//var price2=des2*price1;
+		//var price3=des3*price1;
+		//var price4=des4*price1;
+		
+		var level2=700; 
+		var level3=2000;
+		var level4=4000;
+		
+		
+		var des2=5;
+		var des3=10;
+		var des4=15;
+		
+		var price1=Number(getParamValue("op"));
+		var price2=price1*(1-des2/100*);
+		var price3=price1*(1-des3/100*);
+		var price4=price1*(1-des4/100*);
+		
+		document.getElementById("wnpt_level1").innerHTML = "Menor de $"+level2;
+		document.getElementById("wnpt_level2").innerHTML = "$"+level2.toLocaleString()+" a $"+(level3-1).toLocaleString();
+	 	document.getElementById("wnpt_level3").innerHTML = "$"+level3.toLocaleString()+" a $"+(level4-1).toLocaleString();
+		document.getElementById("wnpt_level4").innerHTML = "Mayor de $"+level4.toLocaleString();
+		
+		document.getElementById("wnpt_des2").innerHTML = des2+"%";
+		document.getElementById("wnpt_des3").innerHTML = des3+"%";
+		document.getElementById("wnpt_des4").innerHTML = des4+"%";
+		
+		document.getElementById("wnpt_price1").innerHTML = "$"+price1.toFixed(2);
+		document.getElementById("wnpt_price2").innerHTML = "$"price2.toFixed(2);
+		document.getElementById("wnpt_price3").innerHTML = "$"price3.toFixed(2);
+		document.getElementById("wnpt_price4").innerHTML = "$"price4.toFixed(2);
+		
+	  </script>
+   </body>
+</html>
