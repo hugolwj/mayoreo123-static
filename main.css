@@ -74,3 +74,31 @@ flex-direction: column;
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
+
+
+.wn-price-table table {
+	width: 100%;
+}
+
+.wn-price-table table, th, td {
+	border: 1px solid;
+	border-color: #d1d1d1;
+	text-align: center;
+}
+
+.td-header {
+	background-color: #cb6be6;
+}
+
+.wn-price-table table span {
+	color: #cb6be6;
+	font-weight: bold;
+}
+
+.td-header td span {
+	color: #fff;
+}
+
+.td-header td {
+	color: #fff;
+}
