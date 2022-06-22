@@ -87,6 +87,8 @@
 		var price3=price1*(1-des3/100);
 		var price4=price1*(1-des4/100);
 		
+		var ifFixed=getParamValue("fixed");
+		
 		document.getElementById("wnpt_level1").innerHTML = "Menor de $"+level2;
 		document.getElementById("wnpt_level2").innerHTML = "$"+level2.toLocaleString()+" a $"+(level3-1).toLocaleString();
 	 	document.getElementById("wnpt_level3").innerHTML = "$"+level3.toLocaleString()+" a $"+(level4-1).toLocaleString();
@@ -101,6 +103,12 @@
 		document.getElementById("wnpt_price3").innerHTML = "$"+price3.toFixed(2);
 		document.getElementById("wnpt_price4").innerHTML = "$"+price4.toFixed(2);
 		
+		if (ifFixed==null){
+		document.getElementById("wnpt_price2").innerHTML = "$"+price1.toFixed(2);
+		document.getElementById("wnpt_price3").innerHTML = "$"+price1.toFixed(2);
+		document.getElementById("wnpt_price4").innerHTML = "$"+price1.toFixed(2);
+		
+		}
 	  </script>
    </body>
 </html>
