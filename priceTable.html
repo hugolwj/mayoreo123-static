@@ -35,23 +35,23 @@
 				   </tr>
 				   <tr>
 					  <td><span id="wnpt_level1">Menor de $699</span></td>
-					  <td>&nbsp;</td>
-					  <td><span id="wnpt_price1">$12.00</span></td>
+					  <td><span id="wnpt_des1">Mayoreo </span></td>
+					  <td><span id="wnpt_price1">$999.00</span></td>
 				   </tr>
 				   <tr>
 					  <td><span id="wnpt_level2">$ 699 a $2,998</span></td>
 					  <td><span id="wnpt_des2">5% </span></td>
-					  <td><span id="wnpt_price2">$11.40</span></td>
+					  <td><span id="wnpt_price2">$999</span></td>
 				   </tr>
 				   <tr>
 					  <td><span id="wnpt_level3">$ 2,999 a $6,998</span></td>
 					  <td><span id="wnpt_des3">>10% </span></td>
-					  <td><span id="wnpt_price3">$10.80</span></td>
+					  <td><span id="wnpt_price3">$999</span></td>
 				   </tr>
 				   <tr>
 					  <td><span id="wnpt_level4">Mayor de $6,999</span></td>
 					  <td><span id="wnpt_des4">>15% </span></td>
-					  <td><span id="wnpt_price4">$10.20</span></td>
+					  <td><span id="wnpt_price4">$999</span></td>
 				   </tr>
 				</tbody>
 			 </table>
@@ -73,9 +73,9 @@
 		//var price3=des3*price1;
 		//var price4=des4*price1;
 		
-		var level2=699; 
-		var level3=2999;
-		var level4=6999;
+		var level2=700; 
+		var level3=2000;
+		var level4=3500;
 		
 		
 		var des2=5;
@@ -92,9 +92,9 @@
 	 	document.getElementById("wnpt_level3").innerHTML = "$"+level3.toLocaleString()+" a $"+(level4-1).toLocaleString();
 		document.getElementById("wnpt_level4").innerHTML = "Mayor de $"+level4.toLocaleString();
 		
-		document.getElementById("wnpt_des2").innerHTML = des2+"%";
-		document.getElementById("wnpt_des3").innerHTML = des3+"%";
-		document.getElementById("wnpt_des4").innerHTML = des4+"%";
+		document.getElementById("wnpt_des2").innerHTML = "Super";//"Super "+des2+"%";
+		document.getElementById("wnpt_des3").innerHTML = "Mega";//"Mega"+des3+"%";
+		document.getElementById("wnpt_des4").innerHTML = "VIP";//"VIP "+des4+"%";
 		
 		document.getElementById("wnpt_price1").innerHTML = "$"+price1.toFixed(2);
 		document.getElementById("wnpt_price2").innerHTML = "$"+price2.toFixed(2);
